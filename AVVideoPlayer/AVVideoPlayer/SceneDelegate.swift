@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  AVVideoPlayer
 //
-//  Created by Osvin-Mob-MAc on 14/02/22.
+//
 //
 
 import UIKit
@@ -16,6 +16,20 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+//        // If this scene's self.window is nil then set a new UIWindow object to it.
+//        self.window = self.window ?? UIWindow()
+//
+//        // Set this scene's window's background color.
+//        self.window!.backgroundColor = UIColor.red
+//
+//        // Create a ViewController object and set it as the scene's window's root view controller.
+//        self.window!.rootViewController = VideoVC()
+//
+//        // Make this scene's window be visible.
+//        self.window!.makeKeyAndVisible()
+
+        guard scene is UIWindowScene else { return }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AVVideoPlayer
 //
-//  Created by Osvin-Mob-MAc on 14/02/22.
+//
 //
 
 import UIKit
@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
         return true
     }
 
